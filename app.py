@@ -93,7 +93,7 @@ with col1:
     st.header("🧠")
     st.subheader("Quantum Mind")
     st.write("Salud mental y equilibrio cognitivo asistido por IA.")
-    st.link_button("Ingresar", "AQUI_VA_TU_LINK_DE_MIND")
+    st.link_button("Ingresar", "https://quantum-psicologia-ai.streamlit.app")
     st.markdown('</div>', unsafe_allow_html=True)
 
 with col2:
