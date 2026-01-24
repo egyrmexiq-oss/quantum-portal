@@ -38,7 +38,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # --- CABECERA ---
-st.image("https://unsplash.com/es/fotos/textil-redondo-azul-sobre-fondo-negro-7Ne_rNvQldw?auto=format&fit=crop&q=80&w=1000", use_container_width=True) # Imagen abstracta de IA
+st.image("https://images.unsplash.com/es/fotos/textil-redondo-azul-sobre-fondo-negro-7Ne_rNvQldw?auto=format&fit=crop&q=80&w=1000", use_container_width=True) # Imagen abstracta de IA
 st.title("🌐 Quantum AI Ecosystem")
 st.markdown("### *Donde la lógica de datos potencia el bienestar humano*")
 st.divider()
