@@ -109,7 +109,7 @@ with col3:
     st.header("⚡")
     st.subheader("Quantum Supplements")
     st.write("Rendimiento físico y suplementación estratégica.")
-    st.link_button("Ingresar", "AQUI_VA_TU_LINK_DE_SUPPLEMENTS")
+    st.link_button("Ingresar", "https://quantum-supplements-pro.streamlit.app")
     st.markdown('</div>', unsafe_allow_html=True)
 with col4:
     st.markdown('<div class="card">', unsafe_allow_html=True)
