@@ -52,7 +52,7 @@ st.markdown(
         width: 100%;
         height: 100%;
         object-fit: cover;          /* Recorta sin deformar */
-        object-position: center;    /* Muestra la parte central */
+        object-position: bottom;    /* Muestra la parte central */
     }
     </style>
     """,
