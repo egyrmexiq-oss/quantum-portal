@@ -40,13 +40,31 @@ st.markdown("""
 # --- CABECERA ---
 import streamlit as st
 
-col1, col2, col3 = st.columns([1, 3, 1])  # col2 ocupa 3/5 del espacio total
+st.markdown(
+    """
+    <style>
+    .banner {
+        height: 120px;              /* Ajusta la altura de la cintilla */
+        overflow: hidden;           /* Recorta lo que sobra */
+        border-radius: 8px;         /* Opcional */
+    }
+    .banner img {
+        width: 100%;
+        object-fit: cover;          /* Mantiene proporción y recorta */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
-with col2:
-    st.image(
-        "https://images.unsplash.com/photo-1617722694908-9be1092d1bc2?q=80&w=1943&auto=format&fit=crop",
-        use_container_width=True
-    )
+st.markdown(
+    """
+    <div class="banner">
+        <img src="https://images.unsplash.com/photo-1617722694908-9be1092d1bc2?q=80&w=1943&auto=format&fit=crop">
+    </div>
+    """,
+    unsafe_allow_html=True
+)
 
 
 # Imagen abstracta de IA
