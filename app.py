@@ -50,7 +50,9 @@ st.markdown(
     }
     .banner img {
         width: 100%;
-        object-fit: cover;          /* Mantiene proporción y recorta */
+        height: 100%;
+        object-fit: cover;          /* Recorta sin deformar */
+        object-position: center;    /* Muestra la parte central */
     }
     </style>
     """,
