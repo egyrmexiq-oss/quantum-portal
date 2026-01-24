@@ -49,7 +49,7 @@ with col2:
     )
 
 
-)# Imagen abstracta de IA
+# Imagen abstracta de IA
 st.title("🌐 Quantum AI Ecosystem")
 st.markdown("### *Donde la lógica de datos potencia el bienestar humano*")
 st.divider()
