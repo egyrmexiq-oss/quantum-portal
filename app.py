@@ -55,7 +55,7 @@ with st.expander("📖 Nuestra Filosofía (El Manifiesto Quantum)"):
 st.write("## Selecciona tu Módulo de Optimización:")
 
 # --- FILA DE TARJETAS (La Trinidad) ---
-col1, col2, col3, col4 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
     st.markdown('<div class="card">', unsafe_allow_html=True)
