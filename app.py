@@ -80,7 +80,13 @@ with col3:
     st.write("Rendimiento físico y suplementación estratégica.")
     st.link_button("Ingresar", "AQUI_VA_TU_LINK_DE_SUPPLEMENTS")
     st.markdown('</div>', unsafe_allow_html=True)
-
+with col4:
+    st.markdown('<div class="card">', unsafe_allow_html=True)
+    st.header("🩺")
+    st.subheader("Quantum Health")
+    st.write("Portal médico integral y herbolaria avanzada.")
+    st.link_button("Ingresar", "TU_LINK_DE_HEALTH_AQUI")
+    st.markdown('</div>', unsafe_allow_html=True)
 # --- PIE DE PÁGINA ---
 st.divider()
 st.caption("Quantum AI 2026 | Arquitectura de Sistemas de Vanguardia")
