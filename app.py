@@ -101,7 +101,7 @@ with col2:
     st.header("🌿")
     st.subheader("Quantum Herbal")
     st.write("Directorio médico y sabiduría botánica de precisión.")
-    st.link_button("Ingresar", "AQUI_VA_TU_LINK_DE_HERBAL")
+    st.link_button("Ingresar", "https://quantum-herbalists-pro.streamlit.app")
     st.markdown('</div>', unsafe_allow_html=True)
 
 with col3:
