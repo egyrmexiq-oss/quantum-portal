@@ -39,7 +39,7 @@ st.markdown("""
 
 # --- CABECERA ---
 st.image(
-    "https://images.unsplash.com/photo-7Ne_rNvQldw?auto=format&fit=crop&q=80&w=1000",
+    "https://images.unsplash.com/photo-1617722694908-9be1092d1bc2?q=80&w=1943&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     use_container_width=True
 )# Imagen abstracta de IA
 st.title("🌐 Quantum AI Ecosystem")
