@@ -44,15 +44,15 @@ st.markdown(
     """
     <style>
     .banner {
-        height: 120px;              /* Altura de la cintilla */
-        overflow: hidden;           /* Recorta lo que sobra */
-        border-radius: 8px;         /* Bordes opcionales */
+        height: 120px;
+        overflow: hidden;
+        border-radius: 8px;
     }
     .banner img {
         width: 100%;
         height: 100%;
-        object-fit: cover;          /* Ajuste sin deformar */
-        object-position: bottom;    /* Muestra la parte baja */
+        object-fit: cover;
+        object-position: bottom;
     }
     </style>
     """,
@@ -62,7 +62,7 @@ st.markdown(
 st.markdown(
     """
     <div class="banner">
-        <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437d3?auto=format&fit=crop&q=80&w=1943">
+        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&q=80&w=1943">
     </div>
     """,
     unsafe_allow_html=True
