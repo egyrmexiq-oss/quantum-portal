@@ -52,7 +52,7 @@ st.markdown(
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: 40% 80%;  /* Ajusta el encuadre hacia los dedos */
+        object-position: 70% 80%;  /* Ajusta el encuadre hacia los dedos */
     }
     </style>
     """,
