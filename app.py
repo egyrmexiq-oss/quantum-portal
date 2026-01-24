@@ -52,7 +52,7 @@ st.markdown(
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: bottom;
+        object-position: 50% 80%;  /* Ajusta el encuadre hacia los dedos */
     }
     </style>
     """,
@@ -62,7 +62,7 @@ st.markdown(
 st.markdown(
     """
     <div class="banner">
-        <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&q=80&w=1943">
+        <img src="https://raw.githubusercontent.com/egyrmexiq-oss/quantum-portal/main/manos_h_y_r.jpg">
     </div>
     """,
     unsafe_allow_html=True
