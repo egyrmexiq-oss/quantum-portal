@@ -116,7 +116,7 @@ with col4:
     st.header("🩺")
     st.subheader("Quantum Health")
     st.write("Portal médico integral y herbolaria avanzada.")
-    st.link_button("Ingresar", "Thttps://salud-final-ai.streamlit.app")
+    st.link_button("Ingresar", "https://salud-final-ai.streamlit.app")
     st.markdown('</div>', unsafe_allow_html=True)
 
 # --- PIE DE PÁGINA ---
