@@ -120,7 +120,7 @@ with col4:
     st.markdown('</div>', unsafe_allow_html=True)
 with col5:
     st.markdown('<div class="card">', unsafe_allow_html=True)
-    st.header("🩺")
+    st.header("🏋️")
     st.subheader("Quantum Mind Gym")
     st.write("Portal médico integral para una mente saludable.")
     st.link_button("Ingresar", "https://quantum-mind-gym.streamlit.app/p")
