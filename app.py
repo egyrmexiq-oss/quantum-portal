@@ -123,7 +123,7 @@ with col5:
     st.header("🩺")
     st.subheader("Quantum Health")
     st.write("Portal médico integral y herbolaria avanzada.")
-    st.link_button("Ingresar", https://quantum-mind-gym.streamlit.app/p")
+    st.link_button("Ingresar", "https://quantum-mind-gym.streamlit.app/p")
     st.markdown('</div>', unsafe_allow_html=True)
 # --- PIE DE PÁGINA ---
 st.divider()
