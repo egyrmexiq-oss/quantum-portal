@@ -121,8 +121,8 @@ with col4:
 with col5:
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.header("🩺")
-    st.subheader("Quantum Health")
-    st.write("Portal médico integral y herbolaria avanzada.")
+    st.subheader("Quantum Mind Gym")
+    st.write("Portal médico integral para una mente saludable.")
     st.link_button("Ingresar", "https://quantum-mind-gym.streamlit.app/p")
     st.markdown('</div>', unsafe_allow_html=True)
 # --- PIE DE PÁGINA ---
