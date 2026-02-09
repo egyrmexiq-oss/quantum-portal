@@ -125,6 +125,17 @@ with col5:
     st.write("Portal médico integral para una mente saludable.")
     st.link_button("Ingresar", "https://quantum-mind-gym.streamlit.app/p")
     st.markdown('</div>', unsafe_allow_html=True)
+col6, = st.columns(1)
+with col6:
+    st.markdown('<div class="card">', unsafe_allow_html=True)
+    st.header("🌿")
+    st.subheader("Quantum Yoga Zen")
+    st.write("Portal médico integral para una mente saludable.")
+    st.link_button("Ingresar", "https://quantum-yoga.streamlit.app/p")
+    st.markdown('</div>', unsafe_allow_html=True)
+
+
+    
 # --- PIE DE PÁGINA ---
 st.divider()
 st.caption("Quantum AI 2026 | Arquitectura de Sistemas de Vanguardia")
