@@ -86,7 +86,7 @@ with st.expander("📖 Nuestra Filosofía (El Manifiesto Quantum)"):
 st.write("## Selecciona tu Módulo de Optimización:")
 
 # --- FILA DE TARJETAS (La Trinidad) ---
-col1, col2, col3, col4, col5 = st.columns(5)
+col1, col2, col3, col4, col5 = st.columns(6)
 
 with col1:
     st.markdown('<div class="card">', unsafe_allow_html=True)
@@ -125,7 +125,6 @@ with col5:
     st.write("Portal médico integral para una mente saludable.")
     st.link_button("Ingresar", "https://quantum-mind-gym.streamlit.app/p")
     st.markdown('</div>', unsafe_allow_html=True)
-col6, = st.columns(1)
 with col6:
     st.markdown('<div class="card">', unsafe_allow_html=True)
     st.header("🌿")
@@ -133,7 +132,14 @@ with col6:
     st.write("Portal médico integral para una mente saludable.")
     st.link_button("Ingresar", "https://quantum-yoga.streamlit.app/p")
     st.markdown('</div>', unsafe_allow_html=True)
-
+col7, = st.columns(1)
+with col7:
+    st.markdown('<div class="card">', unsafe_allow_html=True)
+    st.header("📝")
+    st.subheader("Quantum Press")
+    st.write("Portal de Prensa Alternativa de Investigación.")
+    st.link_button("Ingresar", "https://quantum-yoga.streamlit.app/p")
+    st.markdown('</div>', unsafe_allow_html=True)
 
     
 # --- PIE DE PÁGINA ---
